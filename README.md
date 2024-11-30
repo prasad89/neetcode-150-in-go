@@ -25,3 +25,13 @@ go run path/to/solution.go
 - [Longest Consecutive Sequence](./Arrays%20%26%20Hashing/longestConsecutiveSequence.go)
 
 ---
+
+### Two Pointers
+
+- [Valid Palindrome](./Two%20Pointers/validPalindrome.go)
+- [Two Sum II Input Array Is Sorted](./Two%20Pointers/twoSumII.go)
+- [3Sum](./Two%20Pointers/threeSum.go)
+- [Container With Most Water](./Two%20Pointers/containerWithMostWater.go)
+- [Trapping Rain Water](./Two%20Pointers/trappingRainWater.go)
+
+---
