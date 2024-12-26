@@ -1,0 +1,62 @@
+//go:build ignore
+
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+type Node struct {
+	Value int
+	Left  *Node
+	Right *Node
+}
+
+func build(arr []int) *Node {
+	if len(arr) == 0 {
+		return nil
+	}
+	root := &Node{Value: arr[0]}
+	queue := []*Node{root}
+	ptr := 1
+	for len(queue) > 0 && ptr < len(arr) {
+		curr := queue[0]
+		queue = queue[1:]
+		if ptr < len(arr) && arr[ptr] != -1 {
+			curr.Left = &Node{Value: arr[ptr]}
+			queue = append(queue, curr.Left)
+		}
+		ptr++
+		if ptr < len(arr) && arr[ptr] != -1 {
+			curr.Right = &Node{Value: arr[ptr]}
+			queue = append(queue, curr.Right)
+		}
+		ptr++
+	}
+	return root
+}
+
+func valid(root *Node, left, right int) bool {
+	if root == nil {
+		return true
+	}
+	val := root.Value
+	if val <= left || val >= right {
+		return false
+	}
+	return valid(root.Left, left, val) && valid(root.Right, val, right)
+}
+
+func isValidBST(root *Node) bool {
+	return valid(root, math.MinInt, math.MaxInt)
+}
+
+func main() {
+	arr1 := []int{2, 1, 3}
+	root1 := build(arr1)
+	fmt.Println(isValidBST(root1))
+	arr2 := []int{1, 2, 3}
+	root2 := build(arr2)
+	fmt.Println(isValidBST(root2))
+}

@@ -35,3 +35,23 @@ go run path/to/solution.go
 - [Trapping Rain Water](./Two%20Pointers/trappingRainWater.go)
 
 ---
+
+### Trees
+
+- [Invert Binary Tree](./Trees/invertBinaryTree.go)
+- [Maximum Depth of Binary Tree](./Trees/maximumDepthOfBinaryTree.go)
+- [Diameter of Binary Tree](./Trees/diameterOfBinaryTree.go)
+- [Balanced Binary Tree](./Trees/balancedBinaryTree.go)
+- [Same Tree](./Trees/sameTree.go)
+- [Subtree of Another Tree](./Trees/subtreeOfAnotherTree.go)
+- [Lowest Common Ancestor of a Binary Search Tree](./Trees/lowestCommonAncestorOfBinarySearchTree.go)
+- [Binary Tree Level Order Traversal](./Trees/binaryTreeLevelOrderTraversal.go)
+- [Binary Tree Right Side View](./Trees/binaryTreeRightSideView.go)
+- [Count Good Nodes in Binary Tree](./Trees/countGoodNodesInBinaryTree.go)
+- [Validate Binary Search Tree](./Trees/validBinarySearchTree.go)
+- [Kth Smallest Element in a BST](./Trees/kthSmallestIntegerInBST.go)
+- [Construct Binary Tree from Preorder and Inorder Traversal](./Trees/constructBinaryTreeFromPreorderAndInorderTraversal.go)
+- [Binary Tree Maximum Path Sum](./Trees/binaryTreeMaximumPathSum.go)
+- [Serialize and Deserialize Binary Tree](./Trees/serializeAndDeserializeBinaryTree.go)
+
+---
