@@ -36,6 +36,22 @@ go run path/to/solution.go
 
 ---
 
+### Linked List
+
+- [Reverse Linked List](./Linked%20List/reverseLinkedList.go)
+- [Merge Two Sorted Lists](./Linked%20List/mergeTwoSortedLists.go)
+- [Linked List Cycle](./Linked%20List/linkedListCycle.go)
+- [Reorder List](./Linked%20List/reorderList.go)
+- [Remove Nth Node From End of List](./Linked%20List/removeNthNodeFromEndOfList.go)
+- [Copy List With Random Pointer](./Linked%20List/copyListWithRandomPointer.go)
+- [Add Two Numbers](./Linked%20List/addTwoNumbers.go)
+- [Find The Duplicate Number](./Linked%20List/findTheDuplicateNumber.go)
+- [LRU Cache](./Linked%20List/lruCache.go)
+- [Merge K Sorted Lists](./Linked%20List/mergeKSortedLists.go)
+- [Reverse Nodes In K Group](./Linked%20List/reverseNodesInKGroups.go)
+
+---
+
 ### Trees
 
 - [Invert Binary Tree](./Trees/invertBinaryTree.go)
