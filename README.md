@@ -71,3 +71,16 @@ go run path/to/solution.go
 - [Serialize and Deserialize Binary Tree](./Trees/serializeAndDeserializeBinaryTree.go)
 
 ---
+
+### Greedy
+
+- [Maximum Subarray](./Greedy/maximumSubarray.go)
+- [Jump Game](./Greedy/jumpGame.go)
+- [Jump Game II](./Greedy/jumpGameII.go)
+- [Gas Station](./Greedy/gasStation.go)
+- [Hand of Straights](./Greedy/handOfStraights.go)
+- [Merge Triplets to Form Target Triplet](./Greedy/mergeTripletsToFormTargetTriplet.go)
+- [Partition Labels](./Greedy/partitionLabels.go)
+- [Valid Parenthesis String](./Greedy/validParenthesisString.go)
+
+---
