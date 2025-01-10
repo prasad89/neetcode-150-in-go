@@ -84,3 +84,14 @@ go run path/to/solution.go
 - [Valid Parenthesis String](./Greedy/validParenthesisString.go)
 
 ---
+
+### Intervals
+
+- [Insert Interval](./Intervals/insertInterval.go)
+- [Merge Intervals](./Intervals/mergeIntervals.go)
+- [Non Overlapping Intervals](./Intervals/nonOverlappingIntervals.go)
+- [Meeting Rooms](./Intervals/meetingRooms.go)
+- [Meeting Rooms II](./Intervals/meetingRoomsII.go)
+- [Minimum Interval to Include Each Query](./Intervals/minimumIntervalToIncludeEachQuery.go)
+
+---
